@@ -50,8 +50,6 @@ which is more scalable than the original Discrete Fourier Transform (DFT) O(N^2)
 
 ### AudioLazy
 
-![adlzplt.png](https://github.com/JWangNov/EC601_Mini_Proj_3/blob/master/adlzplt.png)
-
 AudioLazy is a module which can perform Z-transfrom, 
 including linear time variant filters, cascade filters (behaves as a list of filters), resonators, etc.. 
 In this module, each LinearFilter instance is compiled just in time when called
