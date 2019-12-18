@@ -18,7 +18,6 @@ filt
 1 - z^-1
 data = filt([.1, .2, .4, .3, .2, -.1, -.3, -.2]) # Past memory has 0.0
 data # This should have internally [.1, .1, .2, -.1, -.1, -.3, -.2, .1]
-<audiolazy.lazy_stream.Stream object at ...>
 data *= 10 # Elementwise gain
 [int(round(x)) for x in data] # Streams are iterables
 [1, 1, 2, -1, -1, -3, -2, 1]
