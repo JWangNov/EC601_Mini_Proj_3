@@ -105,6 +105,9 @@ In this experiment, we take the following picture as an example.
 Next, we perform discrete Fourier transform and fast Fourier transform on this graph, and generate the analysis result graph. 
 During the analysis, it can be felt that the time required for the discrete Fourier transform of the picture is slightly longer 
 than the time required for the fast Fourier transform. 
+Based on the odd, even, imaginary, and real symmetry characteristics of the discrete Fourier transform, 
+FFT greatly simplifies the calculation of the discrete Fourier transform, omitting many unnecessary steps, 
+so that the result can be obtained in a shorter time. 
 The results obtained are as follows.
 
 ***DFT***
